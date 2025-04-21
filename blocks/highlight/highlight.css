@@ -1,0 +1,47 @@
+.highlight-wrapper {
+    position: relative;
+
+    img {
+      width: 70%;
+      margin-left: 30%;
+    }
+  }
+
+  .eastman-highlight__content {
+    position: absolute;
+    top: 30%;
+    background: #fff;
+    width: 33%;
+    padding: 12px 16px;
+    border: 0 solid transparent;
+
+    P {
+      margin: 0;
+      padding: 3px;
+      color: #222;
+      font-family: Exo-Medium;
+    }
+
+    P:nth-child(1) {
+      font-size: 16px;
+      margin: 0;
+    }
+
+    P:nth-child(2) {
+      font-size: 26px;
+      width: fit-content;
+    }
+
+    P:nth-child(3) {
+      font-size: 15px;
+      background: #007e8f;
+      border: 0 solid transparent;
+      color: #fff;
+      width: fit-content;
+      padding: 10px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+  }
