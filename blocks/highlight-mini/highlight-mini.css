@@ -1,0 +1,33 @@
+.highlight-mini-wrapper {
+    position: relative;
+  }
+  .eastman-highlight-mini__content {
+    position: absolute;
+    top: 27%;
+    right: 6%;
+    max-width: 25rem;
+
+    P {
+      font-family: Exo-Medium;
+    }
+
+    P:nth-child(1) {
+      font-size: 30px;
+      margin: 0;
+      margin-bottom: 10px;
+      line-height: 1.2;
+    }
+
+    P:nth-child(2) {
+      font-size: 1rem;
+      background: #007e8f;
+      border: 0 solid transparent;
+      color: #fff;
+      width: fit-content;
+      padding: 0.8rem;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+  }
