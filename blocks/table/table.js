@@ -70,7 +70,6 @@ async function createTable(jsonURL,val) {
 }    
 
 export default async function decorate(block) {
-    debugger;
     const countries = block.querySelector('a[href$=".json"]');
     const parientDiv=document.createElement('div');
     parientDiv.classList.add('contries-block');
